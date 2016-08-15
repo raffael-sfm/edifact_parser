@@ -23,7 +23,7 @@ module EdifactParser
       when text = scan(:segment_end) then [:SEGMENT_END, text]
       when text = scan(:plus) then [:PLUS, text]
       when text = scan(:colon) then [:COLON, text]
-      when text = scan(:number) then [:NUMBER, text.to_f]
+      when text = scan(:number) then [:NUMBER, float(text)]
       when text = scan(:string) then [:STRING, text]
       else
         x = @ss.getch
@@ -32,6 +32,10 @@ module EdifactParser
     end
 
     private
+
+    def float(text)
+      text.gsub(/\D/, '.').to_f
+    end
 
     def scan(name)
       @ss.scan(@format.get(name))

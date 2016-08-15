@@ -22,6 +22,40 @@ module EdifactParser
           nil
         ]
       ],
+      ["UNA:+.? 'UNB+ZZ:3.5'UNH++testing'",
+        [
+          [:OPTIONAL_BEGIN, 'UNA:+.? \''],
+          [:QUALIFIER, 'UNB'],
+          [:PLUS, '+'],
+          [:STRING, 'ZZ'],
+          [:COLON, ':'],
+          [:NUMBER, 3.5],
+          [:SEGMENT_END, "'"],
+          [:QUALIFIER, "UNH"],
+          [:PLUS, '+'],
+          [:PLUS, '+'],
+          [:STRING, "testing"],
+          [:SEGMENT_END, "'"],
+          nil
+        ]
+      ],
+      ["UNA:+,? 'UNB+ZZ:5,5'UNH++testing'",
+        [
+          [:OPTIONAL_BEGIN, 'UNA:+,? \''],
+          [:QUALIFIER, 'UNB'],
+          [:PLUS, '+'],
+          [:STRING, 'ZZ'],
+          [:COLON, ':'],
+          [:NUMBER, 5.5],
+          [:SEGMENT_END, "'"],
+          [:QUALIFIER, "UNH"],
+          [:PLUS, '+'],
+          [:PLUS, '+'],
+          [:STRING, "testing"],
+          [:SEGMENT_END, "'"],
+          nil
+        ]
+      ],
       ["UNA:+.? 'UNB+UNOA:3+22234114345363:ZZ+55643345334:ZZ+130109:1412+61236'UNH+1237+ORDERS:D:96A:UN:EAN008'",
         [
           [:OPTIONAL_BEGIN, 'UNA:+.? \''],
@@ -102,14 +136,14 @@ module EdifactParser
           nil
         ]
       ],
-      ["UNA:+.? 'UNB+UNOA:3+ 7788665534566:ZZ+55643345334:ZZ+130109:1412+61236'UNH+1237+contains an escape?' character or ?+two:D:96A:UN:EAN008'  ",
+      ["UNA:+.? 'UNB+UNOA:9+ 7788665534566:ZZ+55643345334:ZZ+130109:1412+61236'UNH+1237+contains an escape?' character or ?+two:D:96A:UN:EAN008'  ",
         [
           [:OPTIONAL_BEGIN, 'UNA:+.? \''],
           [:QUALIFIER, 'UNB'],
           [:PLUS, '+'],
           [:STRING, 'UNOA'],
           [:COLON, ':'],
-          [:NUMBER, 3],
+          [:NUMBER, 9],
           [:PLUS, '+'],
           [:NUMBER, 7788665534566],
           [:COLON, ':'],
