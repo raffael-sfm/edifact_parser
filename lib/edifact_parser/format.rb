@@ -2,7 +2,7 @@ module EdifactParser
   class Format
     QUALIFIERS = [
       'UNB', 'UNH', 'UNZ', 'UNT', 'UNS', 'IFI', 'IFT', 'ODI', 'TVL', 'APD',
-      'ADR', 'AGR', 'AJT', 'ALC', 'ALI', 'APP', 'APR', 'ARD', 'ARR', 'ASI', 'ATT', 'AUT',
+      'ADR', 'AGR', 'AJT', 'ALC', 'ALI', 'APP', 'ARD', 'ARR', 'ASI', 'ATT', 'AUT',
       'BAS', 'BGM', 'BII', 'BUS', 'CAV', 'CCD', 'CCI', 'CDI', 'CDS', 'CDV', 'CED', 'CIN',
       'CLA', 'CLI', 'CMP', 'CNI', 'CNT', 'COD', 'COM', 'COT', 'CPI', 'CPS', 'CPT', 'CST',
       'CTA', 'CUX', 'DAM', 'DFN', 'DGS', 'DII', 'DIM', 'DLI', 'DLM', 'DMS', 'DOC', 'DRD',
