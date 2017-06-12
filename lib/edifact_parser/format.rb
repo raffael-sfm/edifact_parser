@@ -3,7 +3,7 @@ module EdifactParser
     QUALIFIERS = [
       'UNB', 'UNH', 'UNZ', 'UNT', 'UNS', 'IFI', 'IFT', 'ODI', 'TVL', 'APD',
       'ADR', 'AGR', 'AJT', 'ALC', 'ALI', 'APP', 'ARD', 'ARR', 'ASI', 'ATT', 'AUT',
-      'BAS', 'BGM', 'BII', 'BUS', 'CAV', 'CCD', 'CCI', 'CDI', 'CDS', 'CDV', 'CED', 'CIN',
+      'BAS', 'BGM', 'BII', 'BUS', 'CAV', 'CCD', 'CDI', 'CDS', 'CDV', 'CED', 'CIN',
       'CLA', 'CLI', 'CMP', 'CNI', 'CNT', 'COD', 'COM', 'COT', 'CPI', 'CPT', 'CST',
       'CTA', 'CUX', 'DFN', 'DGS', 'DII', 'DIM', 'DLI', 'DLM', 'DMS', 'DOC', 'DRD',
       'DSG', 'DSI', 'DTM', 'EDT', 'EFI', 'ELM', 'ELU', 'ELV', 'EMP', 'EQA', 'EQD', 'EQN',
@@ -12,7 +12,7 @@ module EdifactParser
       'IND', 'INP', 'INV', 'IRQ', 'LAN', 'LIN', 'LOC', 'MEA', 'MEM', 'MKS', 'MOA', 'MSG',
       'MTD', 'NAD', 'NAT', 'PAC', 'PAI', 'PCC', 'PCD', 'PCI', 'PDI', 'PER', 'PGI',
       'PIA', 'PNA', 'POC', 'PRC', 'PRI', 'PRV', 'PSD', 'PTY', 'PYT', 'QRS', 'QTY', 'QUA',
-      'QVR', 'RCS', 'REL', 'RFF', 'RJL', 'RNG', 'ROD', 'RSL', 'RTE', 'SAL', 'SCC', 'SCD',
+      'QVR', 'RCS', 'REL', 'RFF', 'RJL', 'RNG', 'ROD', 'RSL', 'RTE', 'SCC', 'SCD',
       'SEG', 'SEL', 'SEQ', 'SFI', 'SGP', 'SGU', 'SPR', 'SPS', 'STA', 'STC', 'STG', 'STS',
       'TAX', 'TCC', 'TDT', 'TEM', 'TMD', 'TMP', 'TOD', 'TPL', 'TRU', 'TSR', 'VLI' ]
 
