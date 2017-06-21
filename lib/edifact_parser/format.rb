@@ -13,7 +13,7 @@ module EdifactParser
       'MTD', 'NAD', 'NAT', 'PAC', 'PAI', 'PCC', 'PCD', 'PDI', 'PER', 'PGI',
       'PIA', 'PNA', 'POC', 'PRC', 'PRI', 'PRV', 'PSD', 'PTY', 'PYT', 'QRS', 'QTY', 'QUA',
       'QVR', 'RCS', 'REL', 'RFF', 'RJL', 'RNG', 'ROD', 'RSL', 'RTE', 'SCC', 'SCD',
-      'SEG', 'SEL', 'SEQ', 'SFI', 'SGP', 'SGU', 'SPR', 'STA', 'STC', 'STG', 'STS',
+      'SEG', 'SEL', 'SEQ', 'SFI', 'SGP', 'SGU', 'SPR', 'STA', 'STC', 'STG',
       'TAX', 'TCC', 'TDT', 'TEM', 'TMD', 'TMP', 'TOD', 'TPL', 'TRU', 'TSR', 'VLI' ]
 
     OPTIONAL_BEGIN = /^UNA.{4}\s./
