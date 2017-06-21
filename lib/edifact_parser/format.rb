@@ -5,7 +5,7 @@ module EdifactParser
       'ADR', 'AGR', 'AJT', 'ALC', 'ALI', 'APP', 'ARD', 'ARR', 'ASI', 'ATT', 'AUT',
       'BAS', 'BGM', 'BII', 'BUS', 'CAV', 'CCD', 'CDI', 'CDS', 'CDV', 'CED',
       'CLA', 'CLI', 'CMP', 'CNI', 'CNT', 'COD', 'COM', 'COT', 'CPI', 'CPT', 'CST',
-      'CTA', 'CUX', 'DFN', 'DGS', 'DII', 'DIM', 'DLI', 'DLM', 'DMS', 'DOC', 'DRD',
+      'CTA', 'DFN', 'DGS', 'DII', 'DIM', 'DLI', 'DLM', 'DMS', 'DOC', 'DRD',
       'DSG', 'DSI', 'DTM', 'EDT', 'EFI', 'ELM', 'ELU', 'ELV', 'EMP', 'EQA', 'EQD', 'EQN',
       'ERC', 'ERP', 'EVE', 'FCA', 'FII', 'FNS', 'FNT', 'FOR', 'FSQ', 'FTX', 'GDS', 'GEI',
       'GID', 'GIN', 'GIR', 'GOR', 'GRU', 'HAN', 'HYN', 'ICD', 'IDE', 'IFD', 'IHC', 'IMD',
