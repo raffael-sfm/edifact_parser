@@ -15,6 +15,7 @@ module EdifactParser
     def start_element
       push [:array]
       @element_started = true
+      @empty = true
     end
 
     def scalar(s)
